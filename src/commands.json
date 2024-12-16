@@ -1,0 +1,16 @@
+[
+    {
+        "name": "delivery",
+        "description": "Calculate what fish you need for a delivery!",
+        "options": [
+            {
+                "name": "input",
+                "description": "Enter all your fish names in the format 'qty' 'fish-name'. Separate entries with commas.",
+                "type": 3,
+                "required": true
+            }
+        ],
+        "contexts": [0,1,2],
+        "integration_types": [1]
+    }
+]
